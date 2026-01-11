@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purple Kraken</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000000; 
+            overflow: hidden;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100vh;
+            /* Update to your image's actual width */
+            width: 414px; 
+            height: auto;
+            display: block;
+            object-fit: contain;
+
+            /* Animation Settings */
+            animation: fadeIn ease 2.5s; /* 2.5 seconds duration */
+        }
+
+        /* The Fade-In Logic */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <img src="purplekraken.png" alt="">
+
+</body>
+</html>
